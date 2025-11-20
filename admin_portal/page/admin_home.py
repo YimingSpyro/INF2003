@@ -242,13 +242,3 @@ def page(supabase: Optional[Client] = None):
 
         st.markdown("<hr class='row-hr' />", unsafe_allow_html=True)
 
-# ---------- Export entrypoints your router expects ----------
-def admin_home(supabase: Optional[Client] = None):
-    return _render_admin(supabase)
-
-def admin_page(supabase: Optional[Client] = None):
-    return _render_admin(supabase)
-
-# Optional alias for consistency
-def user_page(supabase: Optional[Client] = None):
-    return _render_admin(supabase)
