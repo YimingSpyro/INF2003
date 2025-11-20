@@ -1,0 +1,10 @@
+streamlit
+yfinance
+pandas
+numpy
+plotly
+python-dateutil
+python-dotenv
+supabase
+psycopg2-binary
+streamlit-option-menu
